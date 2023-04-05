@@ -1,0 +1,62 @@
+{
+	"OriginPointCode": "VIX",
+	"OriginPartnerPointCode": null,
+	"OriginPostalCode": null,
+	"ToCollect": false,
+	"DestinationPointCode": null,
+	"DestinationPostalCode": "shippingData.logisticsInfo.selectedAddresses.postalCode",
+	"ToDelivery": true,
+	"ServiceCode": "CHEGOL - shippingData.logisticsInfo.selectedSla",
+
+	"InsuranceType": 2,
+	"InsuranceCompany": null,
+	"InsurancePolicyNumber": null,
+	"DeclaredValue": 0.0,
+	"PreviousDocuments": null,
+
+	"SenderDocument": "744.547.670-92",
+	"SenderStateRegistration": "Isento",
+	"SenderName": "Fulano",
+	"SenderPayer": true,
+	"SenderTelephoneCountryCode": "55",
+	"SenderTelephoneAreaCityCode": 27,
+	"SenderTelephonePhoneNumber": "999999999",
+
+	"SenderAddressStreet": "Rua Crisópolis",
+	"SenderAddressComplement": "Rua Crisópolis",
+	"SenderAddressNumber": "Rua Crisópolis",
+	"SenderAddressPostalCode": "Rua Crisópolis",
+	"SenderAddressNeighborhood": "Rua Crisópolis",
+	"SenderAddressCity": "Rua Crisópolis",
+	"SenderAddressState": "Rua Crisópolis",
+	"SenderAddressCountry": "Rua Crisópolis",
+
+	"ReceiverDocument": "clientProfileData.document",
+	"ReceiverStateRegistration": "Isento",
+	"ReceiverName": "clientProfileData.firstName + lastName",
+	"ReceiverPayer": false,
+	"ReceiverTelephoneCountryCode": "clientProfileData.phone",
+	"ReceiverTelephoneAreaCityCode": "clientProfileData.phone",
+	"ReceiverTelephonePhoneNumber": "clientProfileData.phone",
+	"ReceiverAddressStreet": "shippingData.selectedAddresses.street",
+	"ReceiverAddressComplement": "shippingData.selectedAddresses.street",
+	"ReceiverAddressNumber": "shippingData.selectedAddresses.street",
+	"ReceiverAddressPostalCode": "shippingData.selectedAddresses.street",
+	"ReceiverAddressNeighborhood": "shippingData.selectedAddresses.street",
+	"ReceiverAddressCity": "shippingData.selectedAddresses.street",
+	"ReceiverAddressState": "shippingData.selectedAddresses.street",
+	"ReceiverAddressCountry": "shippingData.selectedAddresses.street",
+	"GenerateDocumentNumber": true,
+	"PaymentMethod": 1,
+	
+	"Volumes": [
+		{
+			"Pieces": 1,
+			"Weight": "items.additionalInfo.dimension.weight",
+			"Lenght": "items.additionalInfo.dimension.length",
+			"Width": "items.additionalInfo.dimension.width",
+			"Height": "items.additionalInfo.dimension.height"
+		}
+	]
+
+}	
